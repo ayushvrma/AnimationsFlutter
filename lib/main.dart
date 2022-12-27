@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'basic_animation_page.dart';
+// import 'basic_animation_page.dart';
+// import 'animated_widget_page.dart';
+import 'animated_widget_builder.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,6 +18,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: AnimationPage());
+        home: const AnimationPage());
   }
 }
